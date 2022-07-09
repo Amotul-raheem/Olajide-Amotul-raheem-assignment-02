@@ -55,7 +55,7 @@ assignment.countEvenNumbers = countEvenNumbers;
 function celsiusToFahrenheit(arrayOfNumbers) {
   convertedValues = [];
   for (let value of arrayOfNumbers) {
-    fahrenheitValue = (value * 9/5) +32;
+    fahrenheitValue = Math.floor((value * 9/5) +32);
     convertedValues.push(fahrenheitValue)
 }
     return convertedValues;
